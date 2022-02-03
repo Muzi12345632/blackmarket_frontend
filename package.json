@@ -1,0 +1,28 @@
+{
+	"name": "blackmarkert_frontend",
+	"version": "0.0.0",
+	"author": "Muziwandile  <muziwandilenko@gmail.com>",
+	"private": true,
+	"scripts": {
+		"build": "npm install && grunt publish",
+		"start": "grunt coupon-frontend.js"
+	},
+	"dependencies": {
+		"body-parser": "~1.13.2",
+		"cookie-parser": "~1.4.6",
+		"debug": "~2.2.0",
+		"express": "~4.13.1",
+		"grunt": "~1.4.1",
+		"morgan": "~1.6.1",
+		"pug": "~3.0.2",
+		"request": "~2.88.2",
+		"serve-favicon": "~2.5.0"
+	},
+	"devDependenceis": {
+		"grunt": "~1.4.1",
+		"grunt-cl": "~1.4.3",
+		"grunt-contrib-stylus": "~1.2.0",
+		"grunt-contrib-watch": "~1.1.0",
+		"grunt-contrib-uglify": "~5.0.1"
+	}
+}
